@@ -1,0 +1,64 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    /*----COLORS-----*/
+
+    --bg-color-primary: #F4F5FB;
+    --bg-color-secondary: #FFFFFF;
+
+    --color-brand: #CA3884;
+    --color-brand-hover: #A52C6B;
+    --color-danger: #C93847;
+
+    --content-primary: #080B12;
+    --content-secondary: #374151;
+    --content-tertiary: #9CA3AF;
+
+    --border-primary: #D1D5DB;
+    --border-hover: #B9C2D0;
+
+
+    /*-----FONT-----*/
+
+    /*FONT FAMILY*/
+    --ff-inter: "Inter", sans-serif;
+
+    /*FONT SIZE*/
+    --fs-md: 1.5rem;
+    --fs-base: 1rem;
+    --fs-sm: 0.875rem;
+
+    /*FONT WEIGHT*/
+    --fw-bold: 700;
+    --fw-sbold: 600;
+    --fw-medium: 500;
+
+    /*FONT TEXT*/
+    --title: var(--fw-bold) var(--fs-md) / 2rem var(--ff-inter);
+    --sapn: var(--fw-sbold) var(--fs-base) / 1.25rem var(--ff-inter);
+    --text: var(--fw-medium) var(--fs-base) / 1.25rem var(--ff-inter);
+    --link: var(--fw-medium) var(--fs-sm) / 1rem var(--ff-inter);
+}
+
+html {
+    font-size:  var(--fs-base);
+    font-weight: var(--fw-medium);
+    font-family: var(--ff-inter);
+    color: var(--content-primary);
+
+    overflow-x: hidden;
+}
+
+body{
+    background-color: var(--bg-color-primary);
+    overflow-x: hidden;
+}
