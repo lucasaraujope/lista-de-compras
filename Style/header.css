@@ -1,0 +1,23 @@
+header{
+    margin: 4.875rem 0 2.75rem 0;
+    
+    .desktop-only {
+        display: none;
+    }
+
+    & div {
+        display: grid;
+        gap: 1rem;
+
+        & p {
+            color: var(--color-brand);
+        }
+    }
+
+    @media (width >= 80em){
+        .desktop-only {
+            display: block;
+        }
+    }
+}
+

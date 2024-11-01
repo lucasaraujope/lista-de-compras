@@ -61,4 +61,7 @@ html {
 body{
     background-color: var(--bg-color-primary);
     overflow-x: hidden;
+
+    width: 20.375rem;
+    margin: 0 auto;
 }
